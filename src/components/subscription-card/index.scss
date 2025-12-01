@@ -1,0 +1,27 @@
+.card.subscription-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: fit-content;
+
+  h4 {
+    color: #0078d4;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: #444;
+    margin: 2px 0;
+
+    strong {
+      color: #222;
+    }
+  }
+}

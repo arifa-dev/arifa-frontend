@@ -1,0 +1,82 @@
+.dash__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  border-radius: 10px;
+  height: fit-content;
+
+  .dash__nav-left {
+    display: flex;
+    gap: 15px;
+
+    .nav-btn {
+      padding: 8px 16px;
+      background: #f4f4f5;
+      border: none;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s;
+      text-decoration: none;
+      font-size: .85em;
+      text-decoration: none;
+
+      &.active {
+        background: #0078d4;
+        color: #fff;
+      }
+
+      &:hover:not(.active) {
+        background: #e2e2e2;
+      }
+    }
+  }
+
+  .dash__nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .user-email {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .notification {
+      position: relative;
+      cursor: pointer;
+      color: #333;
+
+      .badge {
+        position: absolute;
+        top: -6px;
+        right: -6px;
+        background: #dc3545;
+        color: white;
+        font-size: 0.7rem;
+        padding: 2px 5px;
+        border-radius: 50%;
+        font-weight: bold;
+      }
+    }
+
+    .logout-btn {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 12px;
+      background: #f44336;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: 0.2s;
+
+      &:hover {
+        background: #d32f2f;
+      }
+    }
+  }
+}
