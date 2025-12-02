@@ -31,7 +31,7 @@ export const useWebSocket = (path: string) => {
 
   useEffect(() => {
     let ws: WebSocket;
-    const ws_local = "ws://127.0.0.1:8081/ws";
+    const ws_local = "wss://notifications.arifa.dev/ws";
 
     const connect = () => {
       ws = new WebSocket(
