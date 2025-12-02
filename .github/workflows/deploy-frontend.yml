@@ -45,7 +45,7 @@ jobs:
       - name: Build & push image
         uses: docker/build-push-action@v5
         with:
-          context: ./vite-app
+          context: .
           platforms: linux/amd64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
