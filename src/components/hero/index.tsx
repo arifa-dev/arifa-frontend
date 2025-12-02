@@ -15,7 +15,10 @@ export const Hero = () => {
         </p>
 
         <div className="hero-buttons">
-          <a href="https://www.arifa.co.ke/docs/" className="btn-primary">
+          <a
+            href="https://notifications.arifa.dev/docs/"
+            className="btn-primary"
+          >
             Documentation
           </a>
         </div>

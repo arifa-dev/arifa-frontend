@@ -16,7 +16,10 @@ export const Header = () => {
         <a href="#features" onClick={() => setOpen(false)}>
           Features
         </a>
-        <a href="https://www.arifa.co.ke/docs/" onClick={() => setOpen(false)}>
+        <a
+          href="https://notifications.arifa.dev/docs/"
+          onClick={() => setOpen(false)}
+        >
           Docs
         </a>
         <a href="#pricing" onClick={() => setOpen(false)}>
