@@ -66,6 +66,15 @@ export const SignInPage = () => {
             <input type="password" name="password" required />
             <label>Password</label>
           </div>
+          <div
+            className="forgot__password"
+            style={{ textAlign: "right", fontSize: ".8rem" }}
+          >
+            forgot password?{" "}
+            <Link to="/reset" style={{ color: "#7a2afd", fontSize: ".8rem" }}>
+              reset password
+            </Link>
+          </div>
 
           <button type="submit" className="btn" disabled={loading}>
             {loading ? <FiLoader className="spin" size={20} /> : "Sign In"}

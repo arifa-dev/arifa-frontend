@@ -18,6 +18,7 @@ import { GenerateAPIKeys } from "../components";
 import { checkAuth } from "../hoc";
 import { ActivationPage } from "../pages/email-verify";
 import { EmailSentPage } from "../pages/email-sent";
+import { RequestResetPassword, ResetPasswordForm } from "../pages/password-reset";
 
 const ProtectedDashBoard = checkAuth(UserDashboard);
 
@@ -38,6 +39,11 @@ export const routes = createBrowserRouter(
       <Route path="signin" element={<SignInPage />} action={SignInPageAction} />
       <Route path="signup" element={<SignUpPage />} action={SignUpPageAction} />
       <Route path="/auth/activate/:uid/:token" element={<ActivationPage />} />
+      <Route
+        path="/auth/password-reset/:uid/:token"
+        element={<ResetPasswordForm />}
+      />
+      <Route path="/reset" element={<RequestResetPassword />} />
       <Route path="/email-sent" element={<EmailSentPage />} />
       <Route path="/terms" element={<TermsPage />} />
       <Route path="*" element={<p>lost-404</p>} />

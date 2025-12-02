@@ -39,6 +39,7 @@ export const action = async ({ request }: { request: Request }) => {
     });
 
     if (data?.id) {
+      localStorage.setItem("pending_email", email);
       return redirect("/email-sent");
     }
   } catch (err: any) {
@@ -116,7 +117,7 @@ export const SignUpPage = () => {
           {/* Terms & Conditions */}
           <div
             className="terms__check"
-            style={{ margin: "10px 0", textAlign: "left" }}
+            style={{ margin: "10px 0", textAlign: "left", fontSize: ".8rem" }}
           >
             <label
               style={{
@@ -133,7 +134,7 @@ export const SignUpPage = () => {
                 onChange={(e) => setAgreed(e.target.checked)}
               />
               I agree to the{" "}
-              <Link to="/terms" style={{ color: "#7a2afd" }}>
+              <Link to="/terms" style={{ color: "#7a2afd", fontSize: ".8rem" }}>
                 Terms & Conditions
               </Link>
             </label>
