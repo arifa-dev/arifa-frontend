@@ -49,7 +49,6 @@ export const useWebSocket = (path: string) => {
       };
 
       ws.onmessage = (event) => {
-        console.log("WS DAAAATA", event.data);
         setData(event.data);
       };
     };

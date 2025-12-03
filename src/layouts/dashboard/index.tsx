@@ -4,6 +4,7 @@ import { ApiKeysCard, SubscriptionCard, DashHeader } from "../../components";
 import { Outlet } from "react-router-dom";
 import { useUserApiKeysInfo } from "../../hooks";
 import { FiRefreshCw } from "react-icons/fi";
+import { WebSocketProvider } from "../../context/WSContext.tsx";
 
 export const UserDashboard = () => {
   const [copied, setCopied] = useState(false);
@@ -35,47 +36,49 @@ export const UserDashboard = () => {
   };
 
   return (
-    <div className="user__dashboard">
-      <div className="header">
-        <DashHeader />
-      </div>
-
-      <aside className="left__panel">
-        <SubscriptionCard {...subscriptionStatus} />
-
-        <div className="refresh-wrapper">
-          <h4>
-            Your API Keys
-            <button
-              className="refresh-btn"
-              onClick={() => refetch()}
-              title="Refresh API Keys"
-            >
-              <FiRefreshCw />
-            </button>
-          </h4>
-
-          <ApiKeysCard
-            keys={[
-              { client: "web", testKey: testWeb, liveKey: liveWeb },
-              { client: "mobile", testKey: testMobile, liveKey: liveMobile },
-            ]}
-            copied={copied}
-            onCopy={copyToClipboard}
-          />
+    <WebSocketProvider>
+      <div className="user__dashboard">
+        <div className="header">
+          <DashHeader />
         </div>
-      </aside>
 
-      <div className="content">
-        <Outlet />
-        <br />
-        <span style={{ fontSize: "0.8rem", color: "#555" }}>
-          <small style={{ marginRight: "4px" }}>
-            © {new Date().getFullYear()}
-          </small>
-          Arifa — All rights reserved.
-        </span>
+        <aside className="left__panel">
+          <SubscriptionCard {...subscriptionStatus} />
+
+          <div className="refresh-wrapper">
+            <h4>
+              Your API Keys
+              <button
+                className="refresh-btn"
+                onClick={() => refetch()}
+                title="Refresh API Keys"
+              >
+                <FiRefreshCw />
+              </button>
+            </h4>
+
+            <ApiKeysCard
+              keys={[
+                { client: "web", testKey: testWeb, liveKey: liveWeb },
+                { client: "mobile", testKey: testMobile, liveKey: liveMobile },
+              ]}
+              copied={copied}
+              onCopy={copyToClipboard}
+            />
+          </div>
+        </aside>
+
+        <div className="content">
+          <Outlet />
+          <br />
+          <span style={{ fontSize: "0.8rem", color: "#555" }}>
+            <small style={{ marginRight: "4px" }}>
+              © {new Date().getFullYear()}
+            </small>
+            Arifa — All rights reserved.
+          </span>
+        </div>
       </div>
-    </div>
+    </WebSocketProvider>
   );
 };

@@ -26,9 +26,9 @@ export const Pricing = () => {
 
         <div className="plan popular">
           <h3>Pro</h3>
-          <div className="price">Ksh 350 / Month</div>
+          <div className="price">Ksh 900 / Month</div>
           <ul>
-            <li>Unlimited notifications</li>
+            <li>Unlimited requests</li>
             <li>Live apikey</li>
           </ul>
           <button className="btn-primary" onClick={handleNavigate}>

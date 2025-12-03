@@ -5,17 +5,29 @@ export async function auth_api(
   endpoint: string,
   options: RequestInit = {}
 ): Promise<{ response: Response; data: any }> {
-  const token = localStorage.getItem("accessToken");
-  const headers: HeadersInit = {
+  const skipAuth =
+    endpoint.startsWith("/auth/jwt/create/") ||
+    endpoint.startsWith("/auth/users/");
+
+  let headers: HeadersInit = {
     "Content-Type": "application/json",
-    ...(token ? { Authorization: `Bearer ${token}` } : {}),
     ...options.headers,
   };
+
+  if (!skipAuth) {
+    const token = localStorage.getItem("accessToken");
+    if (token) {
+      headers = {
+        ...headers,
+        Authorization: `Bearer ${token}`,
+      };
+    }
+  }
 
   const response = await fetch(`${AUTH_BASE_URL}${endpoint}`, {
     ...options,
     headers,
-    credentials: "include",
+    credentials: "include", // leave this as it is!
   });
 
   let data: any = null;

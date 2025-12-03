@@ -18,7 +18,10 @@ import { GenerateAPIKeys } from "../components";
 import { checkAuth } from "../hoc";
 import { ActivationPage } from "../pages/email-verify";
 import { EmailSentPage } from "../pages/email-sent";
-import { RequestResetPassword, ResetPasswordForm } from "../pages/password-reset";
+import {
+  RequestResetPassword,
+  ResetPasswordForm,
+} from "../pages/password-reset";
 
 const ProtectedDashBoard = checkAuth(UserDashboard);
 
