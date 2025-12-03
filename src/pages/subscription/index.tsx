@@ -9,6 +9,7 @@ type Plan = {
   name: string;
   price: number;
   features: string[];
+  concurrent: number;
 };
 
 export function SubscriptionPage() {
@@ -25,7 +26,6 @@ export function SubscriptionPage() {
       setLoadingPlans(true);
       try {
         const { response, data } = await notification_api("/plans");
-
         if (!response.ok) {
           setError(data?.message || "Failed to fetch plans");
           setPlans([]);
@@ -39,6 +39,7 @@ export function SubscriptionPage() {
             name: p.plan.name,
             price: p.plan.price,
             features: p.features.map((f: any) => f.feature),
+            concurrent: p.plan.concurrent,
           }));
           setPlans(formattedPlans);
         }
@@ -114,6 +115,11 @@ export function SubscriptionPage() {
             </p>
 
             <ul className="plan-card__features">
+              <li>
+                <FaCheck className="icon" />
+                {plan.concurrent} concurrent connections
+              </li>
+
               {plan.features.map((f, index) => (
                 <li key={index}>
                   <FaCheck className="icon" /> {f}
