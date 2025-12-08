@@ -41,10 +41,10 @@ export const Header = () => {
       </div>
 
       <div className="auth desktop-auth">
-        <a href="/dashboard" className="login">
+        <a href="https://app.arifa.dev/signin" className="login">
           Sign In
         </a>
-        <a href="/signup" className="register">
+        <a href="https://app.arifa.dev/signup" className="register">
           Sign Up
         </a>
       </div>
