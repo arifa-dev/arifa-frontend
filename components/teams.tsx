@@ -32,7 +32,7 @@ export default function Teams() {
             Meet the Arifa Team
           </h2>
           <p className="mx-auto max-w-xl text-muted-foreground text-center">
-            The people building Africa’s realtime infrastructure.
+            The people building Afrifa’s realtime infrastructure.
           </p>
         </motion.div>
 

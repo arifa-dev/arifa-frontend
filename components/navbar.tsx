@@ -28,6 +28,8 @@ export default function NavBar() {
     { name: "Pricing", href: "#pricing" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Our Team", href: "#team" },
+    { name: "Sign In", href: "https://app.arifa.dev/signin" },
+    { name: "Sign Up", href: "https://app.arifa.dev/signup" },
   ];
 
   return (
@@ -51,7 +53,7 @@ export default function NavBar() {
           </div>
           <div className="flex sm:hidden">
             <Link href="/" className="font-light tracking-tighter text-lg">
-              Acme
+              Arifa
             </Link>
           </div>
           <div className="hidden sm:flex items-center space-x-8">
