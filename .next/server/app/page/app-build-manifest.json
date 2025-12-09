@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/2d859_next_dist_098a0661._.js",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_app_favicon_ico_mjs_f8a9733d._.js",
+      "static/chunks/[root-of-the-server]__8a743754._.css",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_66ae641b._.js",
+      "static/chunks/2d859_tailwind-merge_dist_bundle-mjs_mjs_4d92b919._.js",
+      "static/chunks/2d859_@radix-ui_react-icons_dist_react-icons_esm_c43c0f23.js",
+      "static/chunks/2d859_motion-dom_dist_es_36146990._.js",
+      "static/chunks/2d859_framer-motion_dist_es_cb5ced33._.js",
+      "static/chunks/2d859_1131fe51._.js",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_app_layout_tsx_f9f3a9a2._.js",
+      "static/chunks/2d859_next_dist_client_components_builtin_global-error_3d72af55.js",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_components_e650e8bf._.js",
+      "static/chunks/2d859_812fb4cf._.js",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_app_page_tsx_3d72af55._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_65d893ec._.js",
+      "static/chunks/2d859_next_dist_compiled_react-dom_1ccc9156._.js",
+      "static/chunks/2d859_next_dist_compiled_next-devtools_index_4b32fd68.js",
+      "static/chunks/2d859_next_dist_compiled_5fa3c4e3._.js",
+      "static/chunks/2d859_next_dist_client_44676283._.js",
+      "static/chunks/2d859_next_dist_351db5cb._.js",
+      "static/chunks/2d859_@swc_helpers_cjs_eb1c359b._.js",
+      "static/chunks/Desktop_Programming_Projects_arifa_arifa-frontend_a0ff3932._.js",
+      "static/chunks/turbopack-Desktop_Programming_Projects_arifa_arifa-frontend_19364eb4._.js"
+    ]
+  }
+}
