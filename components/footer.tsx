@@ -11,7 +11,7 @@ const Footer = () => {
   const socialLinks = [
     {
       name: "Twitter",
-      href: "https://x.com/anomalous254",
+      href: "https://x.com/arifa_dev",
       icon: TwitterLogoIcon,
     }
   ];
