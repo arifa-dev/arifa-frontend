@@ -122,7 +122,7 @@ export default function Pricing() {
                   className="w-full"
                   variant={plan.isMostPop ? "default" : "outline"}
                   size="lg"
-                  onClick={() => router.push("https://app.arifa.dev/signin")}
+                  onClick={() => router.push("https://app.arifa.dev/pricing")}
                 >
                   {plan.price === "0" ? "Get Started Free" : "Choose Plan"}
                 </Button>
