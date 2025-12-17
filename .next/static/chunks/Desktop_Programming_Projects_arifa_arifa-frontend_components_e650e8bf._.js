@@ -511,7 +511,7 @@ function Teams() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mx-auto max-w-xl text-muted-foreground text-center",
-                            children: "The people building Africa’s realtime infrastructure."
+                            children: "The people building Arifa’s realtime infrastructure."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/teams.tsx",
                             lineNumber: 34,
@@ -1742,7 +1742,7 @@ const Footer = ()=>{
     const socialLinks = [
         {
             name: "Twitter",
-            href: "https://x.com/anomalous254",
+            href: "https://x.com/arifa_dev",
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$icons$2f$dist$2f$react$2d$icons$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TwitterLogoIcon"]
         }
     ];

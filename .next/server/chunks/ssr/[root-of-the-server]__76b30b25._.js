@@ -487,6 +487,14 @@ function NavBar() {
         {
             name: "Our Team",
             href: "#team"
+        },
+        {
+            name: "Sign In",
+            href: "https://app.arifa.dev/signin"
+        },
+        {
+            name: "Sign Up",
+            href: "https://app.arifa.dev/signup"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -514,26 +522,26 @@ function NavBar() {
                                     },
                                     children: isMenuOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$icons$2f$dist$2f$react$2d$icons$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Cross1Icon"], {}, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 50,
                                         columnNumber: 31
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f40$radix$2d$ui$2f$react$2d$icons$2f$dist$2f$react$2d$icons$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["HamburgerMenuIcon"], {}, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 48,
+                                        lineNumber: 50,
                                         columnNumber: 48
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                lineNumber: 38,
+                                lineNumber: 40,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                            lineNumber: 37,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -541,15 +549,15 @@ function NavBar() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/",
                                 className: "font-light tracking-tighter text-lg",
-                                children: "Acme"
+                                children: "Arifa"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                lineNumber: 53,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                            lineNumber: 52,
+                            lineNumber: 54,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -561,7 +569,7 @@ function NavBar() {
                                     children: "Arifa"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 58,
+                                    lineNumber: 60,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -573,12 +581,12 @@ function NavBar() {
                                         children: "Pricing"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 64,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -590,12 +598,12 @@ function NavBar() {
                                         children: "Testimonials"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 67,
+                                        lineNumber: 69,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -607,12 +615,12 @@ function NavBar() {
                                         children: "Team"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 73,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenu"], {
@@ -628,18 +636,18 @@ function NavBar() {
                                                         className: "ml-1 h-4 w-4"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                        lineNumber: 78,
+                                                        lineNumber: 80,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                lineNumber: 76,
+                                                lineNumber: 78,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 77,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuContent"], {
@@ -651,7 +659,7 @@ function NavBar() {
                                                             className: "mr-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 84,
+                                                            lineNumber: 86,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -661,7 +669,7 @@ function NavBar() {
                                                                     children: "Realtime Delivery"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 86,
+                                                                    lineNumber: 88,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -669,19 +677,19 @@ function NavBar() {
                                                                     children: "Arifa delivers notifications instantly with ultra-low latency."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 87,
+                                                                    lineNumber: 89,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 87,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 85,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -690,7 +698,7 @@ function NavBar() {
                                                             className: "mr-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 95,
+                                                            lineNumber: 97,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -700,7 +708,7 @@ function NavBar() {
                                                                     children: "Usage Metrics"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 97,
+                                                                    lineNumber: 99,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -708,19 +716,19 @@ function NavBar() {
                                                                     children: "Track delivery counts, failures, retries, and realtime usage."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 98,
+                                                                    lineNumber: 100,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 96,
+                                                            lineNumber: 98,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 94,
+                                                    lineNumber: 96,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -729,7 +737,7 @@ function NavBar() {
                                                             className: "mr-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 106,
+                                                            lineNumber: 108,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -739,7 +747,7 @@ function NavBar() {
                                                                     children: "Global Delivery"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 108,
+                                                                    lineNumber: 110,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -747,19 +755,19 @@ function NavBar() {
                                                                     children: "Notifications delivered reliably across the world."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 109,
+                                                                    lineNumber: 111,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 107,
+                                                            lineNumber: 109,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 105,
+                                                    lineNumber: 107,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -768,7 +776,7 @@ function NavBar() {
                                                             className: "mr-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 116,
+                                                            lineNumber: 118,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -778,7 +786,7 @@ function NavBar() {
                                                                     children: "High Availability"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 118,
+                                                                    lineNumber: 120,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -786,19 +794,19 @@ function NavBar() {
                                                                     children: "Built for 99.9% uptime — stay online and stay realtime."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 119,
+                                                                    lineNumber: 121,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 117,
+                                                            lineNumber: 119,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 117,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$dropdown$2d$menu$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DropdownMenuItem"], {
@@ -807,7 +815,7 @@ function NavBar() {
                                                             className: "mr-2 h-4 w-4"
                                                         }, void 0, false, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 128,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -817,7 +825,7 @@ function NavBar() {
                                                                     children: "Developer Friendly"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 128,
+                                                                    lineNumber: 130,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -825,37 +833,37 @@ function NavBar() {
                                                                     children: "Clean APIs, great documentation, and easy integrations."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                                    lineNumber: 129,
+                                                                    lineNumber: 131,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                            lineNumber: 127,
+                                                            lineNumber: 129,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 127,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                            lineNumber: 82,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 76,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                            lineNumber: 57,
+                            lineNumber: 59,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -866,7 +874,7 @@ function NavBar() {
                                     className: "hidden sm:flex",
                                     size: "sm",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "https://x.com/anomalous254",
+                                        href: "https://x.com/arifa_dev",
                                         target: "_blank",
                                         children: [
                                             "Connect on",
@@ -883,23 +891,23 @@ function NavBar() {
                                                     d: "M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 149,
+                                                    lineNumber: 151,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                lineNumber: 141,
+                                                lineNumber: 143,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 139,
+                                        lineNumber: 141,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 140,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -912,12 +920,12 @@ function NavBar() {
                                         children: "Sign In"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 158,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -930,29 +938,29 @@ function NavBar() {
                                         children: "Sign Up"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 162,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 161,
+                                    lineNumber: 163,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$components$2f$theme$2d$switcher$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 168,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                            lineNumber: 137,
+                            lineNumber: 139,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                    lineNumber: 36,
+                    lineNumber: 38,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -1010,12 +1018,12 @@ function NavBar() {
                                             children: item.name
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                            lineNumber: 192,
+                                            lineNumber: 194,
                                             columnNumber: 21
                                         }, this)
                                     }, item.name, false, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 186,
+                                        lineNumber: 188,
                                         columnNumber: 19
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -1033,7 +1041,7 @@ function NavBar() {
                                     },
                                     className: "pt-2 mt-2",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "https://x.com/anomalous254",
+                                        href: "https://x.com/arifa_dev",
                                         target: "_blank",
                                         className: "flex items-center px-3 py-2 text-base font-medium text-foreground hover:bg-muted rounded-md transition-colors duration-200",
                                         onClick: ()=>setIsMenuOpen(false),
@@ -1052,50 +1060,50 @@ function NavBar() {
                                                     d: "M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                    lineNumber: 222,
+                                                    lineNumber: 224,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                                lineNumber: 214,
+                                                lineNumber: 216,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                        lineNumber: 207,
+                                        lineNumber: 209,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                                    lineNumber: 201,
+                                    lineNumber: 203,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                            lineNumber: 178,
+                            lineNumber: 180,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                        lineNumber: 171,
+                        lineNumber: 173,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-                    lineNumber: 169,
+                    lineNumber: 171,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-            lineNumber: 35,
+            lineNumber: 37,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/navbar.tsx",
-        lineNumber: 34,
+        lineNumber: 36,
         columnNumber: 5
     }, this);
 }

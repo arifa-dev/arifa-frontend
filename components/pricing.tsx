@@ -28,7 +28,7 @@ export default function Pricing() {
       price: "Ksh 900",
       isMostPop: true,
       features: [
-        "90 concurrent connections",
+        "15 concurrent connections",
         "Live Api Keys",
         "Unlimited requests",
       ],
@@ -36,7 +36,7 @@ export default function Pricing() {
     {
       name: "Startups",
       desc: "For Business",
-      price: "Ksh 2,500",
+      price: "Ksh 3,500",
       isMostPop: false,
       features: [
         "500 concurrent connections",
