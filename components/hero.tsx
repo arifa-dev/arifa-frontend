@@ -51,7 +51,7 @@ export default function Hero() {
               {/* FIXED CTA TEXT */}
               <Button
                 onClick={() =>
-                  router.push("https://notifications.arifa.dev/docs/")
+                  router.push("https://documentation.arifa.dev/")
                 }
                 className="shadow-lg"
               >
