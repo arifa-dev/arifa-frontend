@@ -1871,6 +1871,128 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
+"[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Services
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Programming/Projects/arifa/arifa-frontend/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/Programming/Projects/arifa/arifa-frontend/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs [app-client] (ecmascript)");
+"use client";
+;
+;
+function Services() {
+    const services = [
+        {
+            title: "Realtime Notifications",
+            description: "Send instant events to your users over WebSockets without managing connections. Perfect for alerts, messages, and live UI updates."
+        },
+        {
+            title: "User-Centric Delivery",
+            description: "Events are scoped to individual users (UUID-based), ensuring precise delivery to the right recipient every time."
+        },
+        {
+            title: "HTTP → WebSocket Bridge",
+            description: "Trigger events with a simple HTTP POST. Arifa handles routing and delivery, so your frontend or mobile app just listens."
+        },
+        {
+            title: "Reliable & Scalable",
+            description: "Built for production: automatic reconnections, low-latency delivery, and infrastructure designed to handle high volumes of events."
+        }
+    ];
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "services",
+        className: "py-20 px-4 bg-background",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-6xl mx-auto text-center mb-12",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "text-3xl md:text-4xl font-bold mb-4",
+                        children: "What Arifa Does"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-muted-foreground max-w-2xl mx-auto",
+                        children: "Arifa is a realtime event delivery platform that makes it simple to send notifications, counters, and live updates directly to users without managing sockets or infrastructure."
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                        lineNumber: 32,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                lineNumber: 30,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "grid md:grid-cols-3 gap-8 max-w-5xl mx-auto",
+                children: services.map((service, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                        initial: {
+                            y: 20,
+                            opacity: 0
+                        },
+                        whileInView: {
+                            y: 0,
+                            opacity: 1
+                        },
+                        viewport: {
+                            once: true
+                        },
+                        transition: {
+                            duration: 0.6,
+                            delay: index * 0.1,
+                            ease: "easeOut"
+                        },
+                        className: "p-6 border border-border rounded-lg hover:shadow-lg transition-shadow",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                className: "text-xl md:text-2xl font-semibold mb-2",
+                                children: service.title
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                                lineNumber: 53,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Programming$2f$Projects$2f$arifa$2f$arifa$2d$frontend$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                className: "text-sm text-muted-foreground",
+                                children: service.description
+                            }, void 0, false, {
+                                fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                                lineNumber: 56,
+                                columnNumber: 13
+                            }, this)
+                        ]
+                    }, index, true, {
+                        fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                        lineNumber: 41,
+                        columnNumber: 11
+                    }, this))
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Desktop/Programming/Projects/arifa/arifa-frontend/components/services.tsx",
+        lineNumber: 29,
+        columnNumber: 5
+    }, this);
+}
+_c = Services;
+var _c;
+__turbopack_context__.k.register(_c, "Services");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
 ]);
 
-//# sourceMappingURL=Desktop_Programming_Projects_arifa_arifa-frontend_components_e650e8bf._.js.map
+//# sourceMappingURL=Desktop_Programming_Projects_arifa_arifa-frontend_components_e1269691._.js.map
