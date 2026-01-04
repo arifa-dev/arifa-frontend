@@ -9,9 +9,9 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Arifa – Realtime Notifications & Infrastructure",
+  title: "Arifa, Realtime Event Delivery",
   description:
-    "Arifa provides powerful realtime infrastructure and notifications for web and mobile apps, trusted by developers across Africa.",
+    "Send realtime events to users with a single HTTP request. Arifa delivers notifications, alerts, counters, and live UI updates instantly over WebSockets without managing connections, channels, or reconnection logic.",
 };
 
 export default function RootLayout({
