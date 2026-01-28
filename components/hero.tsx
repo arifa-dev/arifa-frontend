@@ -32,16 +32,21 @@ export default function Hero() {
 
           {/* FIXED TITLE */}
           <h1 className="text-4xl font-medium tracking-tighter mx-auto md:text-6xl text-pretty bg-linear-to-b from-sky-800 dark:from-sky-100 to-foreground dark:to-foreground bg-clip-text text-transparent">
-            Arifa, Realtime Event Delivery
+            Send realtime events to users — without a realtime backend
           </h1>
 
           {/* FIXED DESCRIPTION */}
           <p className="max-w-2xl text-lg mx-auto text-muted-foreground text-balance">
-            Send realtime events to users with a single HTTP request. Arifa
-            delivers notifications, alerts, counters, and live UI updates
-            instantly over WebSockets without managing connections, channels,
-            or reconnection logic.
+              Arifa is a simple HTTP → WebSocket event pipe.
+              Send an HTTP request and the right user receives it instantly.
+              No databases, no channels, no socket servers to manage.
           </p>
+          
+          
+          <p className="text-sm text-muted-foreground">
+             Arifa is Not a database. Not a push notification service. Just realtime events.
+          </p>
+
 
           <motion.div
             whileHover={{ scale: 1.05 }}
